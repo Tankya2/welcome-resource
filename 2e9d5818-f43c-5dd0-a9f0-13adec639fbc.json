@@ -1,4 +1,43 @@
 {
-"welcome-to-orquestra-9p8h7-1527438838": {"class":"welcome-to-orquestra","id":"welcome-to-orquestra-9p8h7-1527438838","inputParam:command":"python3 main.py","inputParam:cpu":"1000m","inputParam:disk":"10Gi","inputParam:docker-image":"zmachine_default","inputParam:docker-registry":"zapatacomputing","inputParam:docker-tag":"latest","inputParam:memory":"1024Mi","welcome":{"id":"welcome-to-orquestra-9p8h7-1527438838/welcome","message":"Welcome to Orquestra!","schema":"message","taskClass":"welcome-to-orquestra","taskId":"welcome-to-orquestra-9p8h7-1527438838","workflowId":"welcome-to-orquestra-9p8h7"},"workflowId":"welcome-to-orquestra-9p8h7"},
-"welcome-to-orquestra-9p8h7-429910055": {"class":"z-transformation","id":"welcome-to-orquestra-9p8h7-429910055","inputArtifact:message":"welcome-to-orquestra-9p8h7-1527438838/welcome","inputParam:command":"python3 main.py","inputParam:cpu":"1000m","inputParam:disk":"10Gi","inputParam:docker-image":"zmachine_default","inputParam:docker-registry":"zapatacomputing","inputParam:docker-tag":"latest","inputParam:memory":"1024Mi","workflowId":"welcome-to-orquestra-9p8h7","zessage":{"id":"welcome-to-orquestra-9p8h7-429910055/zessage","message":"Zelcome Zo Zrquestra!","schema":"message","taskClass":"z-transformation","taskId":"welcome-to-orquestra-9p8h7-429910055","workflowId":"welcome-to-orquestra-9p8h7"}}
+    "welcome-to-orquestra-9p8h7-1527438838": {
+        "class": "welcome-to-orquestra",
+        "id": "welcome-to-orquestra-9p8h7-1527438838",
+        "inputParam:command": "python3 main.py",
+        "inputParam:cpu": "1000m",
+        "inputParam:disk": "10Gi",
+        "inputParam:docker-image": "zmachine_default",
+        "inputParam:docker-registry": "zapatacomputing",
+        "inputParam:docker-tag": "latest",
+        "inputParam:memory": "1024Mi",
+        "welcome": {
+            "id": "welcome-to-orquestra-9p8h7-1527438838/welcome",
+            "message": "Welcome to Orquestra!",
+            "schema": "message",
+            "taskClass": "welcome-to-orquestra",
+            "taskId": "welcome-to-orquestra-9p8h7-1527438838",
+            "workflowId": "welcome-to-orquestra-9p8h7"
+        },
+        "workflowId": "welcome-to-orquestra-9p8h7"
+    },
+    "welcome-to-orquestra-9p8h7-429910055": {
+        "class": "z-transformation",
+        "id": "welcome-to-orquestra-9p8h7-429910055",
+        "inputArtifact:message": "welcome-to-orquestra-9p8h7-1527438838/welcome",
+        "inputParam:command": "python3 main.py",
+        "inputParam:cpu": "1000m",
+        "inputParam:disk": "10Gi",
+        "inputParam:docker-image": "zmachine_default",
+        "inputParam:docker-registry": "zapatacomputing",
+        "inputParam:docker-tag": "latest",
+        "inputParam:memory": "1024Mi",
+        "workflowId": "welcome-to-orquestra-9p8h7",
+        "zessage": {
+            "id": "welcome-to-orquestra-9p8h7-429910055/zessage",
+            "message": "Zelcome Zo Zrquestra!",
+            "schema": "message",
+            "taskClass": "z-transformation",
+            "taskId": "welcome-to-orquestra-9p8h7-429910055",
+            "workflowId": "welcome-to-orquestra-9p8h7"
+        }
+    }
 }
